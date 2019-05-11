@@ -56,6 +56,8 @@ const HooksContainer1 = props => {
                 <br />
                 <p>{useEffectValue ? <p>{useEffectValue}</p> : <p>No value</p>}</p>
                 <br />
+                <p>{context.useContextSubmit ? <p>{context.useContextSubmit}</p> : <p>No userText</p>}</p>
+                <br />
                 {state.stateprop1 ? <p>Stateprop1 is true</p> : <p>Stateprop1 is false</p>}
                 <br />
                 <p>Local state: {stateValue}</p>
